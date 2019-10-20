@@ -253,6 +253,163 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/20/CMD-ip-command/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Geng Zheng(kid9)">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="KID9 BLOG">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/10/20/CMD-ip-command/" itemprop="url">[CMD] ip command</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-10-20T16:19:26+08:00">
+                2019-10-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>ip命令在linux下可以通过安装net-tools获得。ip（Internet Protocol）命令可以用来展示或者修改系统的路由，设备和隧道灯信息。linux下还有一个相似的命令ifconfig（deprecated），与之相比ip命令可以完成更多的功能。</p>
+<p>ip命令可以用于配置修改路由设置，设置隧道，查询ip地址和其他属性信息，修改接口的状态以及添加，修改或删除ip地址和路由等。</p>
+<p><strong>Syntax</strong>:</p>
+<pre><code>ip [ OPTIONS ] OBJECT { COMMAND | help }
+</code></pre><p><strong>Options</strong>:</p>
+<ul>
+<li><p>address. 查询设备上的ip信息</p>
+<p>  ip address<br>  ip address show {interface}     // 查询指定设备的地址信息</p>
+</li>
+<li><p>link. 展示连接层信息</p>
+<p>  ip link<br>  ip -s link     // 展示网络接口的统计信息<br>  ip [-s] link show {interface}</p>
+</li>
+<li><p>route. 查询路由信息</p>
+<p>  ip route</p>
+</li>
+<li><p>add. 为接口添加ip地址</p>
+<p>  ip a add {ip_address} dev {interface}</p>
+</li>
+<li><p>del. 删除接口上的ip地址</p>
+<p>  ip a del {ip_address} dev {interface}</p>
+</li>
+<li><p>up. 使能网络接口</p>
+<p>  ip link set {interface} up</p>
+</li>
+<li><p>down. 关闭网络接口</p>
+<p>  ip link set {interface} down</p>
+</li>
+<li><p>monitor. 在屏幕上持续展示实时的设备，地址和路由信息</p>
+<p>  ip monitor</p>
+</li>
+<li><p>neighbor. 查看邻居的mac信息</p>
+<p>  ip neighbor<br>  ip neighbor del {ip_address} dev {interface}<br>  ip neighbor add {ip_address} dev {interface}</p>
+</li>
+</ul>
+<p>Reference:</p>
+<ul>
+<li><a href="https://www.geeksforgeeks.org/ip-command-in-linux-with-examples/" target="_blank" rel="noopener">https://www.geeksforgeeks.org/ip-command-in-linux-with-examples/</a></li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/15/Learning-Plan/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
@@ -1027,7 +1184,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -1040,7 +1197,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">tags</span>
                 </a>
               </div>
